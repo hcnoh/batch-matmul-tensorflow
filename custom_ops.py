@@ -8,7 +8,7 @@ def tf_batch_matmul(a, b):
         a, b: '3-D' tensors with shape '[None, num_rows, num_cols]'.
 
     Returns:
-        The matrix multiplication of two batched matrixes a, b.
+        The result of batch matrix multiplication of two batched matrixes a, b.
     
     """
     a_row, a_col = a.shape[1], a.shape[2]
